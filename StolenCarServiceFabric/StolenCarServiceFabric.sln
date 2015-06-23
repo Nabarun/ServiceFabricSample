@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "StolenCarStatelessActorApplication", "StolenCarStatelessActorApplication\StolenCarStatelessActorApplication.sfproj", "{99A10DFC-DDCD-4246-B931-68ED9AB9D836}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StolenCarStatelessActor", "StolenCarStatelessActor\StolenCarStatelessActor.csproj", "{B1FBF28A-29A4-4A9B-B30C-2CBBD26B9643}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StolenCarStatelessActor.Interfaces", "StolenCarStatelessActor.Interfaces\StolenCarStatelessActor.Interfaces.csproj", "{B28E92AA-5065-4E6D-B9DA-24C982B18189}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StolenCarStatelessActor.Client", "StolenCarStatelessActor.Client\StolenCarStatelessActor.Client.csproj", "{91BA034C-FA7D-4760-AD1E-9C4B2518A98E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99A10DFC-DDCD-4246-B931-68ED9AB9D836}.Debug|x64.ActiveCfg = Debug|x64
+		{99A10DFC-DDCD-4246-B931-68ED9AB9D836}.Debug|x64.Build.0 = Debug|x64
+		{99A10DFC-DDCD-4246-B931-68ED9AB9D836}.Debug|x64.Deploy.0 = Debug|x64
+		{99A10DFC-DDCD-4246-B931-68ED9AB9D836}.Release|x64.ActiveCfg = Release|x64
+		{99A10DFC-DDCD-4246-B931-68ED9AB9D836}.Release|x64.Build.0 = Release|x64
+		{99A10DFC-DDCD-4246-B931-68ED9AB9D836}.Release|x64.Deploy.0 = Release|x64
+		{B1FBF28A-29A4-4A9B-B30C-2CBBD26B9643}.Debug|x64.ActiveCfg = Debug|x64
+		{B1FBF28A-29A4-4A9B-B30C-2CBBD26B9643}.Debug|x64.Build.0 = Debug|x64
+		{B1FBF28A-29A4-4A9B-B30C-2CBBD26B9643}.Release|x64.ActiveCfg = Release|x64
+		{B1FBF28A-29A4-4A9B-B30C-2CBBD26B9643}.Release|x64.Build.0 = Release|x64
+		{B28E92AA-5065-4E6D-B9DA-24C982B18189}.Debug|x64.ActiveCfg = Debug|x64
+		{B28E92AA-5065-4E6D-B9DA-24C982B18189}.Debug|x64.Build.0 = Debug|x64
+		{B28E92AA-5065-4E6D-B9DA-24C982B18189}.Release|x64.ActiveCfg = Release|x64
+		{B28E92AA-5065-4E6D-B9DA-24C982B18189}.Release|x64.Build.0 = Release|x64
+		{91BA034C-FA7D-4760-AD1E-9C4B2518A98E}.Debug|x64.ActiveCfg = Debug|x64
+		{91BA034C-FA7D-4760-AD1E-9C4B2518A98E}.Debug|x64.Build.0 = Debug|x64
+		{91BA034C-FA7D-4760-AD1E-9C4B2518A98E}.Release|x64.ActiveCfg = Release|x64
+		{91BA034C-FA7D-4760-AD1E-9C4B2518A98E}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

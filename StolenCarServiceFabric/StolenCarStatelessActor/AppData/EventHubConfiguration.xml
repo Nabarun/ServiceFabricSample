@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<EventHub>
+  <EventHubName>wftracehub</EventHubName>
+  <!-- Need to remove EventHubNameSpace section instead parse it from EventHubConnectionString-->
+  <EventHubNameSpace>eventhubname.servicebus.windows.net</EventHubNameSpace>
+  <EventHubConnectionString>Endpoint=sb://</EventHubConnectionString>
+  <AzureBlobConnectionString>DefaultEndpointsProtocol=https;</AzureBlobConnectionString>
+  <SQLConnectionString>Data Source=</SQLConnectionString>
+  <NumberOfMessage>100</NumberOfMessage>
+  <NumberOfPartitions>10</NumberOfPartitions>
+</EventHub>
