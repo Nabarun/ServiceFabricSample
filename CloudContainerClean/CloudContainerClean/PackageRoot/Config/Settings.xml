@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Settings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <!-- Add your custom configuration sections and parameters here -->
+  <!--
+  
+  -->
+  <Section Name="DeleteContainerCOnfig">
+    <Parameter Name="StorageAccountName" Value="shrek" />
+    <Parameter Name="StorageAccountKey" Value="8Aj6fNc1PCP00xtR2yKHtjAx65UzWvqy6pVIhSuPvtvwUbg1GeI7Wrx20IESzkLeSzO2jgNCWYgVF4dZlc8WEw==" />
+    <Parameter Name="StorageUri" Value="https://shrek.blob.core.windows.net/" />
+    <Parameter Name="LimitDays" Value="60" />
+  </Section>
+</Settings>

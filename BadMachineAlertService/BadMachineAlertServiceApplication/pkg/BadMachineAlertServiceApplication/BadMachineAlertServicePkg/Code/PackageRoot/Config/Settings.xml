@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Settings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <!-- This is used by the StateManager's replicator. -->
+  <Section Name="ReplicatorConfig">
+    <Parameter Name="ReplicatorEndpoint" Value="ReplicatorEndpoint" />
+    <Parameter Name="MaxStreamSizeInMB" Value="1024"/>  
+  </Section>
+  <!-- This is used for securing StateManager's replication traffic. -->
+  <Section Name="ReplicatorSecurityConfig" />
+
+  <!-- Add your custom configuration sections and parameters here. -->
+  <Section Name="BadMachineAlertConfig">
+    <Parameter Name="SQLConnectionString" Value="Data Source=iabulql5e9.database.windows.net;Initial Catalog=TestInfraDB;User ID=testinfrauser@iabulql5e9;Password=winfabPass!" />
+    <Parameter Name="AnalysisSqlConnectionString" Value="Data Source=tcp:inraec7c6b.database.windows.net,1433;Initial Catalog=wftraceanalysisdb;Persist Security Info=True;User ID=dbadmin@inraec7c6b;Password=winfabPass!" />
+    <Parameter Name="SendGridUserName" Value="nabarun"/>
+    <Parameter Name="SendGridPassword" Value="Nabjsr123"/>
+    <Parameter Name="FetchPastTestRunsInDays" Value="2"/>
+    <Parameter Name="EmailSender" Value="v-naseng@microsoft.com"/>
+    <Parameter Name="EmailReceiver" Value="v-naseng@microsoft.com"/>
+    <Parameter Name="EmailSubject" Value="Bad Machine Analysis Report from Lrc3Xstore"/>
+    <Parameter Name="LogFileLocation" Value="C:\BadMachineLog.log"/>
+  </Section>
+</Settings>
