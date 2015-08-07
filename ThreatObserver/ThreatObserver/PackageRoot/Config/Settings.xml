@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+   <Section Name="AzureIssueReplicatorConfig">
+      <Parameter Name="ReplicatorEndpoint" Value="AzureIssueReplicatorEndpoint" />
+   </Section>
+   <Section Name="AzureIssueReplicatorSecurityConfig">
+      <Parameter Name="CredentialType" Value="None" />
+   </Section>
+   <Section Name="AzureIssueLocalStoreConfig">
+      <Parameter Name="MaxAsyncCommitDelayInMilliseconds" Value="100" />
+      <Parameter Name="MaxVerPages" Value="32768" />
+   </Section>
+   <Section Name="MachineIssueReplicatorConfig">
+      <Parameter Name="ReplicatorEndpoint" Value="MachineIssueReplicatorEndpoint" />
+   </Section>
+   <Section Name="MachineIssueReplicatorSecurityConfig">
+      <Parameter Name="CredentialType" Value="None" />
+   </Section>
+   <Section Name="MachineIssueLocalStoreConfig">
+      <Parameter Name="MaxAsyncCommitDelayInMilliseconds" Value="100" />
+      <Parameter Name="MaxVerPages" Value="32768" />
+   </Section>
+   <Section Name="ProductIssueReplicatorConfig">
+      <Parameter Name="ReplicatorEndpoint" Value="ProductIssueReplicatorEndpoint" />
+   </Section>
+   <Section Name="ProductIssueReplicatorSecurityConfig">
+      <Parameter Name="CredentialType" Value="None" />
+   </Section>
+   <Section Name="ProductIssueLocalStoreConfig">
+      <Parameter Name="MaxAsyncCommitDelayInMilliseconds" Value="100" />
+      <Parameter Name="MaxVerPages" Value="32768" />
+   </Section>
+   <Section Name="TestIssueReplicatorConfig">
+      <Parameter Name="ReplicatorEndpoint" Value="TestIssueReplicatorEndpoint" />
+   </Section>
+   <Section Name="TestIssueReplicatorSecurityConfig">
+      <Parameter Name="CredentialType" Value="None" />
+   </Section>
+   <Section Name="TestIssueLocalStoreConfig">
+      <Parameter Name="MaxAsyncCommitDelayInMilliseconds" Value="100" />
+      <Parameter Name="MaxVerPages" Value="32768" />
+   </Section>
+</Settings>

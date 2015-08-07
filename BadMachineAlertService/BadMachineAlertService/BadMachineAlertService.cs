@@ -99,7 +99,7 @@ namespace BadMachineAlertService
                     ServiceEventSource.Current.ServiceMessage(
                         this, $"Email succesfully Sent to {_emailToAlias}");
 
-                    await Task.Delay(TimeSpan.FromHours(12), cancellationToken);
+                    await Task.Delay(TimeSpan.FromHours(24), cancellationToken);
                 }
             }
             catch (AccessViolationException avException)
